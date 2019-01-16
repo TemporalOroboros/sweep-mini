@@ -26,9 +26,8 @@ but subsequences of equal elements are replaced by one
 representative.  For example, dedup([]) = [], dedup([1, 1, 2, 1, 1]) 
 = [1, 2, 1]. 
 
-Function header: 
 ```
-def max_run(l: list) -> int:
+def dedup(l: list) -> list:
 ```
 
 
@@ -44,9 +43,12 @@ max_run([1, 2, 1, 1]) = 2.
 I think none of these are really difficult, but they are approximately
 in order of increasing difficulty. 
 
+Function header: 
+
 ```
-def dedup(l: list) -> list:
+def max_run(l: list) -> int:
 ```
+
 # Hints
 
 In my solutions, each of these three functions starts with a 
